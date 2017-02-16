@@ -12,7 +12,7 @@
 	<div id="keypad">
 		<table border="2">
 			<tr>
-				<td colspan="4" id="display-bar" height="20px">Values Go Here</td>
+				<td colspan="4" id="display-bar" height="20px"></td>
 			</tr>
 
 			<tr>
@@ -25,7 +25,7 @@
 				<td><input onclick="display(7)" type="button" value="7">
 				</td>
 
-				<td><input onclick="display(/)" type="button" value="/">
+				<td><input onclick="display('/')" type="button" value="/">
 				</td>
 			</tr>
 
@@ -39,7 +39,7 @@
 				<td><input onclick="display(4)" type="button" value="4">
 				</td>
 
-				<td><input onclick="display(*)" type="button" value="*">
+				<td><input onclick="display('*')" type="button" value="*">
 				</td>
 			</tr>
 
@@ -53,7 +53,7 @@
 				<td><input onclick="display(1)" type="button" value="1">
 				</td>
 
-				<td><input onclick="display(-)" type="button" value="-">
+				<td><input onclick="display('-')" type="button" value="-">
 				</td>
 			</tr>
 
@@ -64,15 +64,14 @@
 				<td><input onclick="clearDisplay()" type="button" value="c">
 				</td>
 
-				<td><input onclick="display(=)" type="button" value="=">
+				<td><input onclick="calculate()" type="button" value="=">
 				</td>
 
-				<td><input onclick="display(+)" type="button" value="+">
+				<td><input onclick="display('+')" type="button" value="+">
 				</td>
 			</tr>
 		</table>
 	</div>
-	<script src="script.js" type="text/javascript">
-	</script>
+	<script src="script.js" type="text/javascript"></script>
 </body>
 </html>
